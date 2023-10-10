@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APP</title>
+</head>
+<body>
+
+    <h1>Experimentação de Visualização de dados</h1>
+
+    <h2>Gráfico de Contagem de Alunos</h2>
+    <iframe src="{{ url_for('static', filename='contagem_alunos.html') }}" width="600" height="400"></iframe>
+
+    <h2>Gráfico de Risco de Evasão</h2>
+    <iframe src="{{ url_for('static', filename='risco_evasao.html') }}" width="600" height="400"></iframe>
+
+</body>
+</html>
